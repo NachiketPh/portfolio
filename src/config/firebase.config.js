@@ -9,7 +9,7 @@ const firebaseConfig = {
     projectId: "portfolio-201d8",
     storageBucket: "portfolio-201d8.appspot.com",
     messagingSenderId: "1052860543266",
-    appId: "1:1052860543266:web:9b9807e0542ac52a61f57b",
+    appId: process.env.REACT_APP_ID ,
     measurementId: "G-H8R9SWG1CM"
   };
 
