@@ -3,7 +3,7 @@ import { getApps,getApp, initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD6bEW4nRmta8HVdh7C8rorAYnl3TW-oMk",
+    apiKey: process.env.REACT_APP_SECRET_KEY,
     authDomain: "portfolio-201d8.firebaseapp.com",
     databaseURL: "https://portfolio-201d8-default-rtdb.firebaseio.com",
     projectId: "portfolio-201d8",
